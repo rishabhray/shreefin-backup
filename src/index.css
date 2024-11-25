@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .perspective {
+    perspective: 1000px;
+  }
+  
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Custom Swiper Navigation Styles */
+.swiper-button-next,
+.swiper-button-prev {
+  top: 0 !important;
+  margin-top: 0 !important;
+  transform: translateY(-150%) !important;
+  color: #1A1A1A !important;
+  background: white !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-prev {
+  left: auto !important;
+  right: 60px !important;
+}
+
+.swiper-button-next {
+  right: 10px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #ffe000 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #1A1A1A !important;
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Card flip animation */
+.group:hover .transform-style-3d {
+  transform: rotateY(180deg);
+}
+
+/* Scrolling alert refinements */
+.scrolling-alert-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-alert-content {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+
+/* Typewriter cursor animation */
+.typewriter-cursor {
+  display: inline-block;
+  width: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+/* Graph animations */
+.graph-bar {
+  transition: height 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.hover-scale {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Button animations */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+img.loading {
+  opacity: 0;
+}
+
+img.loaded {
+  opacity: 1;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
