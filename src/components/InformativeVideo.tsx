@@ -28,16 +28,10 @@ export default function InformativeVideo() {
               Master the Art of Trading
             </h2>
             <p className="text-gray-600 mb-8">
-              Learn from our expert analysts and seasoned traders. Get insights into market
-              trends, technical analysis, and proven trading strategies.
             </p>
             
             <div className="space-y-4">
               {[
-                'Professional trading techniques',
-                'Risk management strategies',
-                'Market analysis fundamentals',
-                'Live trading sessions'
               ].map((item, index) => (
                 <div key={index} className="flex items-center">
                   <ChevronRight className="w-5 h-5 text-primary mr-2" />
@@ -47,7 +41,7 @@ export default function InformativeVideo() {
             </div>
 
             <button className="mt-8 bg-primary text-secondary px-8 py-3 rounded-lg font-semibold flex items-center hover:bg-opacity-90 transition-colors">
-              Watch Full Video
+              Watch More Video
               <Play className="w-5 h-5 ml-2" />
             </button>
           </div>
