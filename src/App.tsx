@@ -19,11 +19,11 @@ function App() {
       <div className="pt-16"> {/* Add padding-top to account for fixed navbar */}
         <Navbar />
         <Hero />
-        <MarketSection />
         <Features />
         <LearningModules />
-        <Achievements />
+        <MarketSection />
         <InformativeVideo />
+        <Achievements />
         <Testimonials />
         <Contact />
         <ScrollingAlert />
