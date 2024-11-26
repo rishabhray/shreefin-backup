@@ -10,53 +10,53 @@ export default function Features() {
   const features = [
     {
       icon: <Smartphone className="w-8 h-8 text-secondary" />,
-      title: "Advanced Mobile Trading",
-      description: "Trade seamlessly with our cutting-edge mobile platform"
+      title: "Comprehensive Curriculum Across Key Financial Areas",
+      description: "We offer in-depth courses across critical financial sectors, including investment strategies, insurance planning, loan management, bonds, the stock market, and cryptocurrency. This all-encompassing approach ensures you gain a well-rounded understanding of both traditional and emerging financial markets."
     },
     {
       icon: <BarChart2 className="w-8 h-8 text-secondary" />,
-      title: "Expert Research",
-      description: "Access in-depth market analysis and research reports"
+      title: "Actionable, Results-Oriented Learning",
+      description: "Our focus is not just theory but actionable knowledge that you can apply immediately. From learning how to optimize your investment returns to understanding tax-saving strategies, we provide you with tools that lead to tangible financial growth."
     },
     {
       icon: <Shield className="w-8 h-8 text-secondary" />,
-      title: "Secure Investment",
-      description: "Your investments are protected with bank-grade security"
+      title: "Expert-Led, Real-World Insights",
+      description: "Learn from industry veterans who bring practical, hands-on experience to every lesson. Our instructors don't just teach concepts—they provide you with real-world insights that help you make smarter, more informed financial decisions."
     },
     {
       icon: <Award className="w-8 h-8 text-secondary" />,
-      title: "Award Winning Service",
-      description: "Recognized excellence in customer service and support"
+      title: "Master Tax-Saving Strategies",
+      description: "We help you understand and implement effective tax-saving techniques that can significantly boost your investment returns. Learn how to legally minimize your tax liabilities, leaving you with more to reinvest and grow."
     },
     {
       icon: <Users className="w-8 h-8 text-secondary" />,
-      title: "Community Trading",
-      description: "Join a community of successful traders and investors"
+      title: "Holistic Approach to Financial Growth",
+      description: "We guide you through every step of your financial journey—whether it’s creating a diversified investment portfolio, understanding insurance for risk management, or navigating the complexities of loans and bonds. Our goal is to ensure you achieve sustainable financial success"
     },
     {
       icon: <Target className="w-8 h-8 text-secondary" />,
-      title: "Precision Tools",
-      description: "Advanced tools for precise market analysis and execution"
+      title: "Personalized Mentorship for Continuous Support",
+      description: "Beyond just courses, you’ll have access to personalized mentorship. Our mentors are dedicated to helping you grow by providing tailored advice, answering your questions, and helping you stay on track to meet your investment goals."
     },
     {
       icon: <Zap className="w-8 h-8 text-secondary" />,
-      title: "Lightning Fast Execution",
-      description: "Experience ultra-fast trade execution speeds"
+      title: "Practical Application in a Digital World",
+      description: "As FinTech transforms the finance world, we equip you with the skills to leverage the latest technology in digital finance, from algorithmic trading to blockchain and cryptocurrency. Stay ahead of the curve with cutting-edge tools and strategies."
     },
     {
       icon: <Clock className="w-8 h-8 text-secondary" />,
-      title: "24/7 Support",
-      description: "Round-the-clock customer support for all your needs"
+      title: "Tailored Guidance in Stock Market & Crypto",
+      description: "Whether you're a beginner or an experienced trader, we offer expert guidance on navigating the stock market and crypto space. Learn strategies for maximizing returns, managing risks, and staying up-to-date with market trends."
     },
     {
       icon: <Globe className="w-8 h-8 text-secondary" />,
-      title: "Global Markets",
-      description: "Access to international markets and diverse assets"
+      title: "⁠Engaged Community & Networking Opportunities",
+      description: "Join a community of like-minded individuals who are on the same journey to financial growth. Exchange ideas, collaborate on strategies, and get inspired by others’ success stories. Our community provides both support and networking opportunities to help you succeed."
     },
     {
       icon: <BookOpen className="w-8 h-8 text-secondary" />,
-      title: "Educational Resources",
-      description: "Comprehensive learning materials for all skill levels"
+      title: "Continuous Learning and Resources",
+      description: "We believe in lifelong learning. With access to our regularly updated resources, you can stay on top of the latest trends, technologies, and regulations in finance. Whether it’s a change in tax laws or a new investment strategy, we keep you informed and ready to adapt"
     }
   ];
 
