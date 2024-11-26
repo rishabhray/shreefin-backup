@@ -12,67 +12,68 @@ export default function Hero() {
     'Money Think Shree',
     'corporate FDs Think Shree',
     'Crypto Think Shree',
-    'FOREX Think Shree',
+    'Forex Think Shree',
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
+  
   const sliderItems = [
     {
-      title: 'Market Analysis',
-      description: 'Expert insights on market trends',
+      title: 'Loan',
+      description: 'All types of Loan',
       image:
-        'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/01.jpeg',
     },
     {
-      title: 'Trading Strategies',
-      description: 'Advanced trading techniques',
+      title: 'Retierment Strategies',
+      description: 'All types of Retierment plans',
       image:
-        'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/02.jpeg',
     },
     {
-      title: 'Portfolio Management',
+      title: 'Real Estate Investment',
       description: 'Optimize your investments',
       image:
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/03.jpeg',
     },
     {
-      title: 'Risk Management',
+      title: 'Global Investment',
       description: 'Protect your investments',
       image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/04.jpeg',
     },
     {
-      title: 'Market Research',
+      title: 'Mutual Fund Investment',
       description: 'Data-driven insights',
       image:
-        'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/05.jpeg',
     },
     {
-      title: 'Investment Education',
+      title: 'Bitcoin and Crypto Learning',
       description: 'Learn from experts',
       image:
-        'https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/06.jpeg',
     },
     {
-      title: 'Global Markets',
+      title: 'Indian Stock Market',
       description: 'International trading opportunities',
       image:
-        'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/07.jpeg',
     },
     {
-      title: 'Technical Analysis',
+      title: 'Bonds and Investments',
       description: 'Advanced charting tools',
       image:
-        'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/08.jpeg',
     },
     {
       title: 'Financial Planning',
       description: 'Secure your future',
       image:
-        'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://urizz.me/ZRAY/09.jpeg',
     },
   ];
 
@@ -108,14 +109,14 @@ export default function Hero() {
           {/* Video Section */}
           <div className="relative group cursor-pointer rounded-xl overflow-hidden">
             <img
-              src="https://shreefin.com/ZRAY/shree-trailer.mp4"
-              alt="Shree Fin"
+              src="https://urizz.me/ZRAY/o58.jpeg"
+              alt="Shree_HST"
               className="w-full aspect-video object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
-              <div className="bg-primary p-5 rounded-full transform group-hover:scale-110 transition-transform">
-                <Play className="w-8 h-8 text-secondary" />
-              </div>
+              {/* <div className="bg-primary p-5 rounded-full transform group-hover:scale-110 transition-transform">
+               {/*  <Play className="w-8 h-8 text-secondary" /> 
+              </div> */}
             </div>
           </div>
 
@@ -183,7 +184,7 @@ export default function Hero() {
           <div className="bg-white p-4 rounded-lg shadow-lg border border-gray-100">
             <div className="flex items-center justify-between mb-2">
               <span className="text-sm font-semibold text-gray-600">
-                NIFTY 50
+                N_SAMPLE_GOGL
               </span>
               <TrendingUp className="w-4 h-4 text-primary" />
             </div>
@@ -208,13 +209,13 @@ export default function Hero() {
           <div className="bg-white p-4 rounded-lg shadow-lg border border-gray-100">
             <div className="flex items-center justify-between mb-2">
               <span className="text-sm font-semibold text-gray-600">
-                SENSEX
+              S_SAMPLE_GOGL
               </span>
               <TrendingDown className="w-4 h-4 text-primary" />
             </div>
             <div className="h-24 bg-gradient-to-r from-secondary to-gray-900 rounded-md flex items-end">
               <div className="flex-1 h-full flex items-end px-1">
-                {[70, 45, 60, 30, 65, 40, 50].map((height, i) => (
+                {[70, 45, 60, 30, 65, 40, 90].map((height, i) => (
                   <div
                     key={i}
                     className="flex-1 mx-0.5 bg-primary rounded-t"
@@ -233,3 +234,4 @@ export default function Hero() {
     </div>
   );
 }
+
