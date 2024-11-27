@@ -30,7 +30,7 @@ export default function AboutUsPopup({ isOpen, onClose }: AboutUsPopupProps) {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Video Section */}
+          {/* Video Section 
           <div className="relative group cursor-pointer">
             <div className="relative rounded-xl overflow-hidden">
               <img
@@ -45,32 +45,22 @@ export default function AboutUsPopup({ isOpen, onClose }: AboutUsPopupProps) {
               </div>
             </div>
           </div>
-
+*/}
           {/* Content Section */}
           <div className="space-y-4">
             <p className="text-gray-600">
-              Shreefin is a dynamic and rapidly growing financial services firm
-              with over six years of experience in the industry. The company has
-              established strong collaborations with prominent financial
-              entities, including Centrum Broking, a listed company, and SMC
-              Global. These partnerships enhance Shreefin's ability to deliver a
-              wide range of financial products and services. Shreefin operates
-              across various sectors, providing comprehensive solutions such as
-              loans, mutual funds, bonds, Portfolio Management Services (PMS)
-              investments, stock market investments, and other finance-related
-              offerings. The company is committed to guiding clients through the
-              complexities of financial markets and helping them make informed
-              and strategic investment decisions. In line with our commitment to
-              promoting financial literacy and simplifying investment processes,
-              Shreefin is set to launch a pioneering initiative on December 1,
-              2024. This innovative program aims to demystify financial
-              investments for young individuals and the general public,
-              fostering a clearer understanding of financial concepts. By making
-              investment decisions more accessible and comprehensible, Shreefin
-              strives to empower people to achieve financial stability and
-              long-term
-            </p>
+            Shreefin is a dynamic and rapidly growing financial services firm with over six years of experience in the industry. 
 
+Shreefin operates across various sectors, providing comprehensive solutions such as loans, mutual funds, bonds, Portfolio
+Management Services (PMS) investments, stock market investment learning, and other finance-related offerings. The company is
+committed to guiding clients through the complexities of financial markets and helping them make informed and strategic
+investment decisions.
+In line with our commitment to promoting financial literacy and simplifying investment processes, Shreefin is set to launch a
+pioneering initiative on December 1, 2024. This innovative program aims to demystify financial investments for young
+individuals and the general public, fostering a clearer understanding of financial concepts. By making investment decisions
+more accessible and comprehensible, Shreefin strives to empower people to achieve financial stability and long-term.
+            </p>
+{/* 
             <div className="space-y-4">
               <div className="bg-gray-50 p-4 rounded-lg">
                 <h4 className="font-semibold mb-2">Our Mission</h4>
@@ -98,6 +88,7 @@ export default function AboutUsPopup({ isOpen, onClose }: AboutUsPopupProps) {
                 </ul>
               </div>
             </div>
+          */}
           </div>
         </div>
       </div>
