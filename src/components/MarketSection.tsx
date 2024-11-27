@@ -3,10 +3,10 @@ import { TrendingUp, TrendingDown } from 'lucide-react';
 
 export default function MarketSection() {
   const markets = [
-    { name: 'NIFTY 50', value: '19,425.35', change: '+1.2%', up: true },
-    { name: 'SENSEX', value: '64,363.78', change: '+1.1%', up: true },
-    { name: 'BANK NIFTY', value: '43,628.90', change: '-0.3%', up: false },
-    { name: 'USD/INR', value: '83.25', change: '-0.1%', up: false },
+    { name: 'Monthly', value: '₹4999/-', change: 'Silver', up: true },
+    { name: 'Quterly', value: '₹14999/-', change: 'Gold', up: true },
+    { name: 'Half yearly', value: '₹29999/-', change: 'Platinum', up: true },
+    { name: 'Yearly', value: '₹59999/-', change: 'Dimond', up: true },
   ];
 
   return (
