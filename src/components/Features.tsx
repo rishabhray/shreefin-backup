@@ -65,7 +65,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-secondary mb-4">Why Choose Us</h2>
-          <p className="text-gray-600">Experience the advantage of trading with India's leading broker</p>
+          <p className="text-gray-600">Experience the advantage of trading with us.</p>
         </div>
         
         <div className="relative pt-12"> {/* Added pt-12 for space above slider */}
