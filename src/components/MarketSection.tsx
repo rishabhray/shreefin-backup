@@ -4,9 +4,9 @@ import { TrendingUp, TrendingDown } from 'lucide-react';
 export default function MarketSection() {
   const markets = [
     { name: 'Monthly', value: '₹4999/-', change: 'Silver', up: true },
-    { name: 'Quterly', value: '₹14999/-', change: 'Gold', up: true },
+    { name: 'Quarterly', value: '₹14999/-', change: 'Gold', up: true },
     { name: 'Half yearly', value: '₹29999/-', change: 'Platinum', up: true },
-    { name: 'Yearly', value: '₹59999/-', change: 'Dimond', up: true },
+    { name: 'Yearly', value: '₹59999/-', change: 'Diamond', up: true },
   ];
 
   return (
