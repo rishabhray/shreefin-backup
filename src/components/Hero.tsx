@@ -28,7 +28,7 @@ export default function Hero() {
         'https://urizz.me/ZRAY/01.jpeg',
     },
     {
-      title: 'Retierment Strategies',
+      title: 'Retirement Strategies',
       description: 'All types of Retierment plans',
       image:
         'https://urizz.me/ZRAY/02.jpeg',
@@ -59,7 +59,7 @@ export default function Hero() {
     },
     {
       title: 'Indian Stock Market',
-      description: 'International trading opportunities',
+      description: 'Indian trading opportunities',
       image:
         'https://urizz.me/ZRAY/07.jpeg',
     },
